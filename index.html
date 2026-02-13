@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-name">
+                <a href="#home" class="home-icon">
+                    <i class="fas fa-home"></i>
+                </a>
+                <span class="name">Jeric John Tio</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Project Details</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1>Welcome to My Portfolio</h1>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="daddy.png" alt="Profile Picture">
+                </div>
+                <div class="about-text">
+                    <p>Hello! Jeric John M. Tio, </p>
+                    <p>My journey in software development started with a curiosity for how things work, which led me to pursue a degree in Computer Science. Since then, I've worked on numerous projects ranging from e-commerce platforms to data visualization tools.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge through technical blog posts. I believe in continuous learning and staying updated with the latest industry trends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup and modern web standards</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Responsive design and animations</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>ES6+ and modern frameworks</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React</h3>
+                    <p>Component-based architecture</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-node"></i>
+                    </div>
+                    <h3>Node.js</h3>
+                    <p>Server-side development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Project Details</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-featured online shopping platform with payment integration, user authentication, and real-time inventory management.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A collaborative task management application with drag-and-drop functionality, team collaboration features, and progress tracking.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Express</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather Dashboard</h3>
+                        <p>An interactive weather dashboard that displays real-time weather data, forecasts, and historical trends with beautiful visualizations.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">API Integration</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations" class="recommendations-section">
+        <div class="container">
+            <h2 class="section-title">Recommendations</h2>
+            <div class="recommendations-content">
+                <div id="recommendations-list" class="recommendations-list">
+                    <div class="recommendation-card">
+                        <p class="recommendation-text">"John is an exceptional developer who consistently delivers high-quality work. His attention to detail and problem-solving skills are outstanding."</p>
+                        <p class="recommendation-author">- Sarah Johnson, Project Manager</p>
+                    </div>
+                    <div class="recommendation-card">
+                        <p class="recommendation-text">"Working with John was a great experience. He brings creativity and technical expertise to every project and is always willing to help the team."</p>
+                        <p class="recommendation-author">- Michael Chen, Senior Developer</p>
+                    </div>
+                    <div class="recommendation-card">
+                        <p class="recommendation-text">"John's ability to learn new technologies quickly and apply them effectively is impressive. He's a valuable asset to any development team."</p>
+                        <p class="recommendation-author">- Emily Rodriguez, Tech Lead</p>
+                    </div>
+                </div>
+
+                <div class="recommendation-form-container">
+                    <h3>Leave a Recommendation</h3>
+                    <form id="recommendation-form">
+                        <div class="form-group">
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Recommendation:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Submit Recommendation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popup Modal -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <i class="fas fa-check-circle popup-icon"></i>
+            <h3>Thank You!</h3>
+            <p>Your recommendation has been submitted successfully.</p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
